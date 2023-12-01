@@ -1,3 +1,7 @@
+This project was build by [Anna](https://github.com/AnnaD91), [Elli](https://github.com/e-rmkt), [Pia](https://github.com/Pia-Lueling) an myself as an capstone project for a web developement bootcamp.
+
+---
+
 # Project Description - TRIPIFY
 
 Embark on a seamless journey of adventure with Tripify, the go-to travel planning app designed exclusively for the modern traveler. Whether you're a spontaneous explorer or a meticulous planner, Tripify is here to elevate your travel experience.
