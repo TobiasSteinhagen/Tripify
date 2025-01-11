@@ -29,8 +29,8 @@ export default function TripFormPage() {
         { startDate: tripData.startDate, endDate: tripData.endDate },
       ],
       img: `${repTripDataCity}`
-        ? `https://source.unsplash.com/random/?${repTripDataCountry}-${repTripDataCity}`
-        : `https://source.unsplash.com/random/?${repTripDataCountry}`,
+        ? `https://unsplash.com/s/?${repTripDataCountry}-${repTripDataCity}`
+        : `https://unsplash.com/s/?${repTripDataCountry}`,
     };
 
     if (tripData.endDate < tripData.startDate) {
@@ -44,7 +44,6 @@ export default function TripFormPage() {
       },
       body: JSON.stringify(newTrip),
     });
-
 
     if (!response.ok) {
       console.error(response.status);
